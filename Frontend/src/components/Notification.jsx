@@ -19,7 +19,14 @@ const Notification = () => {
     }
 
     if (notification.includes('ERROR')) {
-        return (<div className ='Error'>{notification}</div>)
+        return (
+            <div>
+            <p></p>
+            <Container size='50%'>
+                <div style={notifyStyle} className ='Error'>{notification}</div>
+            </Container>
+            </div>
+        )
     }
 
     return (
