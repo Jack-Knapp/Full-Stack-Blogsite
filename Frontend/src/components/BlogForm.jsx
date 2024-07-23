@@ -54,7 +54,7 @@ const BlogForm = ({instanceRef}) => {
                 <h2>Create New</h2>
                 <TextInput
                 styles= {{
-                    root: {width: '15em'}
+                    root: {width: '47vw'}
                 }}
                 mt="md"
                 mr="xl"
